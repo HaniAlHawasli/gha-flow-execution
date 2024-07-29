@@ -81,5 +81,5 @@ jobs:
     steps:
       - name: Output information
         run: |
-          echo "something is actually wrong"
+          echo "something is wrong"
           echo "${{ toJSON(github) }}"
