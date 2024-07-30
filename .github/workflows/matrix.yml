@@ -6,10 +6,10 @@ jobs:
     strategy:
       matrix:
         node-version: [12, 13 ,14]
-        operation-system: [ubuntu-latest, windows-latest]
+        operating-system: [ubuntu-latest, windows-latest]
         include:
           - node-version: 18
-            operation-system: ubuntu-latest
+            operating-system: ubuntu-latest
         exclude:
           - node-version: 12
             operating-system: windows-latest
