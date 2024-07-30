@@ -13,7 +13,7 @@ jobs:
         exclude:
           - node-version: 12
             operating-system: windows-latest
-    runs-on: ${{matrix.operation-system}}
+    runs-on: ${{matrix.operating-system}}
     steps:
       - name: GET Code
         uses: actions/checkout@v3
